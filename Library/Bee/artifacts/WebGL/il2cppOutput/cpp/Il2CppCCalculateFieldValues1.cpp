@@ -158,6 +158,8 @@ struct ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411;
 struct FontWeightPairU5BU5D_t76E8DB55C81EEBEFA2E6D1D3E3B3EA1FB4C4954F;
 // UnityEngine.GUIStyle[]
 struct GUIStyleU5BU5D_t1BA4BCF4D4D32DF07E9B84F1750D964DF33B0FEC;
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 // UnityEngine.TextCore.Glyph[]
 struct GlyphU5BU5D_t345CEC8703A6C650639C40DB7D35269A2D467FC5;
 // UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[]
@@ -5638,24 +5640,28 @@ struct CamRotation_t8E8EAD3B37036AD3CDC4AF37CAF74173BF5919AC  : public MonoBehav
 // CatGame
 struct CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// UnityEngine.GameObject[] CatGame::_Startpages
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ____Startpages_4;
 	// System.Int32 CatGame::objectIndex
-	int32_t ___objectIndex_4;
+	int32_t ___objectIndex_5;
+	// UnityEngine.GameObject CatGame::_panel
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____panel_6;
 	// UnityEngine.GameObject CatGame::box_1
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___box_1_5;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___box_1_7;
 	// UnityEngine.GameObject CatGame::catAlive
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___catAlive_6;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___catAlive_8;
 	// UnityEngine.GameObject CatGame::catDead
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___catDead_7;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___catDead_9;
 	// UnityEngine.GameObject CatGame::homeIcon
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___homeIcon_8;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___homeIcon_10;
 	// UnityEngine.GameObject CatGame::pressKeyButton
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pressKeyButton_9;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pressKeyButton_11;
 	// UnityEngine.GameObject CatGame::mainCamera
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mainCamera_10;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mainCamera_12;
 	// UnityEngine.GameObject CatGame::boxCamera
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___boxCamera_11;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___boxCamera_13;
 	// System.Boolean CatGame::isCatAlive
-	bool ___isCatAlive_12;
+	bool ___isCatAlive_14;
 };
 
 // Movement
@@ -6476,9 +6482,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3400[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3403[3] = 
 {
 	static_cast<int32_t>(offsetof(CamRotation_t8E8EAD3B37036AD3CDC4AF37CAF74173BF5919AC, ___x_4)),static_cast<int32_t>(offsetof(CamRotation_t8E8EAD3B37036AD3CDC4AF37CAF74173BF5919AC, ___y_5)),static_cast<int32_t>(offsetof(CamRotation_t8E8EAD3B37036AD3CDC4AF37CAF74173BF5919AC, ___rotateValue_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3404[9] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3404[11] = 
 {
-	static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___objectIndex_4)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___box_1_5)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___catAlive_6)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___catDead_7)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___homeIcon_8)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___pressKeyButton_9)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___mainCamera_10)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___boxCamera_11)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___isCatAlive_12)),};
+	static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ____Startpages_4)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___objectIndex_5)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ____panel_6)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___box_1_7)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___catAlive_8)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___catDead_9)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___homeIcon_10)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___pressKeyButton_11)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___mainCamera_12)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___boxCamera_13)),static_cast<int32_t>(offsetof(CatGame_tF048295D82023A5C70FF266852D9B492EC4A2F67, ___isCatAlive_14)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3405[1] = 
 {
 	static_cast<int32_t>(offsetof(Movement_t7ED030E814A2C7E091389CFDABC85C6995DD35E7, ___speed_4)),};

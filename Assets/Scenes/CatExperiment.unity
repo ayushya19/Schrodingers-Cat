@@ -1223,7 +1223,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7241603697751278852}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1690,12 +1690,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7241603697751278852}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1280, y: 720}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734310608
 MonoBehaviour:
@@ -1846,7 +1846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7221414438126330895, guid: 1731c334e43297b40990faaf6f594afe, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7221414438126330895, guid: 1731c334e43297b40990faaf6f594afe, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3262,10 +3262,10 @@ RectTransform:
   - {fileID: 7241603697713251498}
   - {fileID: 7241603699497767989}
   - {fileID: 7241603698060831114}
+  - {fileID: 656570767}
   - {fileID: 923462840}
   - {fileID: 734310607}
   - {fileID: 7241603697803289823}
-  - {fileID: 656570767}
   m_Father: {fileID: 507479082}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3448,7 +3448,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7241603697751278852}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
