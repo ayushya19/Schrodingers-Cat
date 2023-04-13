@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class CatGame : MonoBehaviour
 
 {
-    //public GameObject[] _Startpages;
+    public GameObject[] _Startpages;
     int objectIndex = 0;
-    //public GameObject _panel;
+    public GameObject _panel;
     public GameObject box_1;
     //public GameObject box_2;
     public GameObject catAlive;
@@ -22,11 +22,11 @@ public class CatGame : MonoBehaviour
 
     void Start()
     {
-         //_panel.SetActive(true);
-        //_Startpages[0].SetActive(true);
-        //_Startpages[1].SetActive(false);
-        //_Startpages[2].SetActive(false);
-   
+        _panel.SetActive(true);
+        _Startpages[0].SetActive(true);
+        _Startpages[1].SetActive(false);
+        _Startpages[2].SetActive(false);
+
         Button pressKey = pressKeyButton.GetComponent<Button>();
         pressKey.onClick.AddListener(OnPressKeyButtonClick);
 
@@ -35,32 +35,33 @@ public class CatGame : MonoBehaviour
     }
     public void OnClick()
     {
-        //objectIndex++;
-        //if (objectIndex >= _Startpages.Length)
-        //{
-            //_panel.SetActive(false);
-         //   BoxShow();
-            //objectIndex = 0;
-        //}
-        //for (int i = 0; i < _Startpages.Length; i++)
-        //{
-            //if (i == objectIndex)
-            //{
-             //   _Startpages[i].SetActive(true);
-            //}
-            //else
-            //{
-            //    _Startpages[i].SetActive(false);
-               
-            //}
-        //}
+        objectIndex++;
+        if (objectIndex >= _Startpages.Length)
+        {
+            _panel.SetActive(false);
+            BoxShow();
+            objectIndex = 0;
+        }
+        for (int i = 0; i < _Startpages.Length; i++)
+        {
+            if (i == objectIndex)
+            {
+                _Startpages[i].SetActive(true);
+            }
+            else
+            {
+                _Startpages[i].SetActive(false);
+
+            }
+        }
     }
     public void BoxShow()
     {
-        //box_1.SetActive(true);
+        box_1.SetActive(true);
         catAlive.SetActive(false);
         catDead.SetActive(false);
         homeIcon.SetActive(false);
+        
     }
     void OnPressKeyButtonClick()
     {
