@@ -1,0 +1,675 @@
+fileFormatVersion: 2
+guid: e13a67143d28a994c8b51a520e037600
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 905
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58402a4e4c17224294287f62b07a4b2
+      internalID: 1673186170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 905
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f048a4f1a6386e47993f9ef7f1e3fdd
+      internalID: -1262879811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 905
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e92882cc2cc944482a322cbaaf40c9
+      internalID: 1833916732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 905
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada4c0f3e255d7c4bb339236eae87326
+      internalID: -193630619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 905
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f32fbe6a05e1542b7f512762c0e1b3
+      internalID: -102639207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 905
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a2a98f70231364c9e840c606357c98
+      internalID: 1199856998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1f047f845cc7341961f34609da871a
+      internalID: -621598848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 636
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137ab330d4f17da4db8f3af11ef5bddc
+      internalID: 926441352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 636
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d29496d1c441340867b2dbe18a0dea
+      internalID: -1027617788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 636
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cee670b26f08847bb5f57554bcbb9d
+      internalID: 1452887809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 636
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aee52f953555f7498d0fe3138ecf5d6
+      internalID: 1177133808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 636
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16a0f02df9554548ac4bc431d6f1602
+      internalID: 105725755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff22851218f2c14db05b6d012e8dd8e
+      internalID: 706496274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 367
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468160c4da028d0409b5476bc24175e5
+      internalID: -781344931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 367
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d9a7b5420af54489ac94c6d92b62ae
+      internalID: -1607019097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 367
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8ba2a17a82d7f438715dbf8260d0ad
+      internalID: 1010652084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 367
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8259288b9326744999c56af92d88187
+      internalID: -1914511164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 367
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bf377d9ceaac845b85c095cda42bbe
+      internalID: -425425972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e70c5c0e9fdf5a4cab3c51d05c291a6
+      internalID: 649265111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 98
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8af4e38ab7194146883e85715747b45
+      internalID: 1354153114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 98
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0beb3752f8655746833894632c94a88
+      internalID: 705689628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 98
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7dd31618b5e9743946e7b059feda50
+      internalID: -607653010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 98
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f768af261031048a327013bb0492eb
+      internalID: 2067804004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stephanie-winter-show-sprite-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 98
+        width: 319
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567bfd16ccd9e474d9e10e772e34d912
+      internalID: -1055546010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f0869dc7e81517d48ad8d1ff45c742ec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      stephanie-winter-show-sprite-sheet_17: -425425972
+      stephanie-winter-show-sprite-sheet_20: 705689628
+      stephanie-winter-show-sprite-sheet_19: 1354153114
+      stephanie-winter-show-sprite-sheet_15: 1010652084
+      stephanie-winter-show-sprite-sheet_7: 926441352
+      stephanie-winter-show-sprite-sheet_2: 1833916732
+      stephanie-winter-show-sprite-sheet_4: -102639207
+      stephanie-winter-show-sprite-sheet_3: -193630619
+      stephanie-winter-show-sprite-sheet_10: 1177133808
+      stephanie-winter-show-sprite-sheet_13: -781344931
+      stephanie-winter-show-sprite-sheet_11: 105725755
+      stephanie-winter-show-sprite-sheet_16: -1914511164
+      stephanie-winter-show-sprite-sheet_21: -607653010
+      stephanie-winter-show-sprite-sheet_1: -1262879811
+      stephanie-winter-show-sprite-sheet_9: 1452887809
+      stephanie-winter-show-sprite-sheet_6: -621598848
+      stephanie-winter-show-sprite-sheet_12: 706496274
+      stephanie-winter-show-sprite-sheet_5: 1199856998
+      stephanie-winter-show-sprite-sheet_22: 2067804004
+      stephanie-winter-show-sprite-sheet_0: 1673186170
+      stephanie-winter-show-sprite-sheet_18: 649265111
+      stephanie-winter-show-sprite-sheet_8: -1027617788
+      stephanie-winter-show-sprite-sheet_23: -1055546010
+      stephanie-winter-show-sprite-sheet_14: -1607019097
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
