@@ -11,13 +11,12 @@ public class CatGame : MonoBehaviour
     public GameObject _panel;
     public GameObject box_1;
     //public GameObject box_2;
-    public GameObject catAlive;
-    public GameObject catDead;
+    //public GameObject catAlive;
     public GameObject homeIcon;
     public GameObject pressKeyButton;
-    public GameObject mainCamera;
+    public GameObject mafinCamera;
     public GameObject boxCamera;
-
+    public GameObject mainCamera;
     private bool isCatAlive = true;
 
     void Start()
@@ -58,8 +57,8 @@ public class CatGame : MonoBehaviour
     public void BoxShow()
     {
         box_1.SetActive(true);
-        catAlive.SetActive(false);
-        catDead.SetActive(false);
+        //catAlive.SetActive(false);
+        //catDead.SetActive(false);
         homeIcon.SetActive(false);
         
     }
@@ -71,13 +70,13 @@ public class CatGame : MonoBehaviour
 
         if (isCatAlive)
         {
-            catAlive.SetActive(true);
-            catDead.SetActive(false);
+            //catAlive.SetActive(true);
+            //catDead.SetActive(false);
         }
         else
         {
-            catAlive.SetActive(false);
-            catDead.SetActive(true);
+            //catAlive.SetActive(false);
+            //catDead.SetActive(true);
         }
 
         //box_2.SetActive(true);
@@ -94,8 +93,8 @@ public class CatGame : MonoBehaviour
     void OnHomeIconClick()
     {
 
-        catAlive.SetActive(false);
-        catDead.SetActive(false);
+        //catAlive.SetActive(false);
+        //catDead.SetActive(false);
 
         homeIcon.SetActive(false);
         pressKeyButton.SetActive(true);
